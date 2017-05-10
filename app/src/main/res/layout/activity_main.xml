@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/buildings_in_dubai" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/promo"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="italic|bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/marginBottom"
+            android:fontFamily="cursive"
+            android:text="@string/duracao"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="italic|bold" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/dubai_text"
+        android:textAlignment="viewEnd"
+        android:textSize="@dimen/text_small"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:gravity="end"
+        android:text="@string/fonte"
+        android:textSize="@dimen/text_small"
+        android:textStyle="italic|bold" />
+</LinearLayout>

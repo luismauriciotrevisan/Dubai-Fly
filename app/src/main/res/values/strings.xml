@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Olá Mundo</string>
+    <string name="promo">Dubai\nR$2.999,00</string>
+    <string name="dubai_text">Dubai é a maior cidade e emirado de mesmo nome dos Emirados Árabes Unidos (uma federação de monarquias absolutas hereditárias árabes).[2] O Emirado de Dubai está localizado na costa do Golfo Pérsico, sendo um dos sete emirados que compõem o país. </string>
+    <string name="fonte">wikipedia.org</string>
+    <string name="duracao">5 dias e 5 noites</string>
+</resources>
